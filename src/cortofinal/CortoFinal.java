@@ -5,9 +5,11 @@
  */
 package cortofinal;
 
+import vista.Consulta;
+
 /**
  *
- * @author LN710Q
+ * @author EdwinLovo
  */
 public class CortoFinal {
 
@@ -16,6 +18,8 @@ public class CortoFinal {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        Consulta c = new Consulta();
+        c.setVisible(true);
     }
     
 }
